@@ -1,5 +1,6 @@
 import localFont from 'next/font/local';
 
+
 const stolzlFont = localFont({
     src: [
         {
@@ -35,3 +36,4 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     </html>
   )
 }
+
