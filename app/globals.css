@@ -1,0 +1,8 @@
+body {
+  background-color: #161516;
+  margin: 0;
+}
+.swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+  will-change: transform;
+}
