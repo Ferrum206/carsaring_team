@@ -1,10 +1,13 @@
+
+
+
 .footer {
   background: #0a0a0a;
   color: #fff;
   padding: 40px 20px;
 }
 
-.footer-container {
+.footerContainer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -14,57 +17,64 @@
 }
 
 
-.footer-links {
+.footerLinks {
   display: flex;
   gap: 40px;
 }
 
-.footer-links h4 {
+.footerLinks h4 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.footer-links ul {
+.footerLinks ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-links li {
+.footerLinks li {
   margin-bottom: 8px;
 }
 
-.footer-links a {
+.footerLinks a {
   color: #bbb;
   text-decoration: none;
 }
 
-.footer-links a:hover {
+.footerLinks a:hover {
   color: #00eaff;
 }
 
+.iconsTabler{
+  text-decoration: none ;
+ color: rgb(71, 71, 71);
+  display: flex;
+  align-items: center
+}
 
-.footer-contact {
+
+.footerContact {
   max-width: 300px;
 }
 
-.contact-phone {
+.contactPhone {
   font-size: 20px;
   font-weight: bold;
 }
 
-.contact-icons {
+.contactIcons {
   display: flex;
   gap: 10px;
   margin: 10px 0;
 }
 
-.contact-icons img {
+.contactIcons img {
   width: 24px;
   height: 24px;
 }
 
-.callback-btn {
+.callbackBtn {
   background: none;
   border: 2px solid #fff;
   color: #fff;
@@ -74,18 +84,18 @@
   transition: 0.3s;
 }
 
-.callback-btn:hover {
+.callbackBtn:hover {
   background: #fff;
   color: #000;
 }
 
 
-.email-form {
+.emailForm {
   display: flex;
   margin-top: 10px;
 }
 
-.email-form input {
+.emailForm input {
   flex: 1;
   padding: 10px;
   border: none;
@@ -93,7 +103,7 @@
   outline: none;
 }
 
-.email-form button {
+.emailForm button {
   background: #00eaff;
   border: none;
   padding: 10px;
@@ -104,27 +114,27 @@
 }
 
 
-.footer-bottom {
+.footerBottom {
   text-align: center;
   margin-top: 20px;
 }
 
-.payment-icons {
+.paymentIcons {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-bottom: 10px;
 }
 
-.payment-icons img {
+.paymentIcons img {
   height: 24px;
 }
 
-.footer-bottom p, .footer-bottom a {
+.footerBottom p, .footerBottom a {
   font-size: 14px;
   color: #bbb;
 }
 
-.footer-bottom a:hover {
+.footerBottom a:hover {
   color: #00eaff;
 }

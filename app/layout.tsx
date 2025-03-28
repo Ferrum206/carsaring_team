@@ -1,4 +1,8 @@
 import localFont from 'next/font/local';
+import MapContent from './components/Map';
+import Footer from './components/Footer';
+import BlockContent from "./components/Block"
+
 
 
 const stolzlFont = localFont({
@@ -27,13 +31,29 @@ const stolzlFont = localFont({
 })
 
 
-export default function RootLayout({children}: {children: React.ReactNode}) {
+export default function ContactLayout({children}: {children: React.ReactNode}) {
   return (
     <html>
         <body className={stolzlFont.className}>
             {children}
+            <MapContent/>
+            <Footer/>
+            <BlockContent/>
+        
+           
+            
+          
+          
+
         </body>
     </html>
   )
 }
+
+    
+
+
+
+  
+
 
