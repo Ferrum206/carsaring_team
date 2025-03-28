@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
-import Footer from "./components/footer/Footer";
-// import Header from "./components/header/Header";
+// import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
 
@@ -38,9 +38,9 @@ export default function RootLayout({
     <html>
       <body className={`${stolzlFont.className} `}>
         {children}
-        {/* <Header /> */}
+        <Header />
 
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
