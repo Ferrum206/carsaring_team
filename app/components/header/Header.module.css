@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50px;
+  padding-right: 58px;
+  padding-left: 60px;
+  color: white;
+  /* display: none; */
+}
+
+.line-up {
+  width: 61px;
+  height: 2px;
+  color: white;
+  position: relative;
+}
+
+.line-bottom {
+  width: 61px;
+  height: 2px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 58px;
+}
+
+.nav a {
+  color: #d7d7d7;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #33b7bc;
+  transition: 0.5s;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: auto; /* Чтобы сдвинуть в правый край */
+}
+
+.number {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.logotype {
+  margin: 15px;
+}
