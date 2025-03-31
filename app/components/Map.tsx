@@ -34,13 +34,13 @@ export default function MapContent(){
               <h1 className={styles.title}>Ask us anything </h1>
            </div>
            
-            <input type="text" className={styles.input1} placeholder=" Your Name" />
+            <input type="text" className={styles.input1} placeholder="  Your Name" />
            
-            <input type="email" className={styles.input2} placeholder=" Your Email" />
+            <input type="email" className={styles.input2} placeholder="  Your Email" />
            
-            <input type="tel" className={styles.input3} placeholder=" +7 (999) 999 - 99 - 99" />
+            <input type="tel" className={styles.input3} placeholder="  +7 (999) 999 - 99 - 99" />
            
-            <textarea className={styles.textarea} placeholder=" Message"></textarea>
+            <textarea className={styles.textarea} placeholder="  Message"></textarea>
 
             <button type="submit" className={styles.button}>Send the request</button>
           </form>

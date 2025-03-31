@@ -6,12 +6,12 @@
 .header{
  margin: 0 auto; 
  color: white;
-
+ padding-bottom: 250px ;
    
 }
   
 .mapContainer{
- width: 990px;
+ width: 61.875rem  ;  
  height: 840pt;
  position: relative;
  
@@ -28,6 +28,7 @@
 
 .map{
     border-radius: 0px 20px 20px 0px;
+  
 }
 
 .form{
@@ -71,11 +72,13 @@ font-size: 70px ;
     margin-top: 43px;
     width: 310px;
     height: 90px;
-    border: 1px solid #33B7BC;
+    border: 2px solid #33B7BC;
     background-color: #191919;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px;
     color: white;
+    
+   
 }
 
 .input1,

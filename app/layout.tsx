@@ -1,10 +1,10 @@
 import localFont from 'next/font/local';
 import MapContent from './components/Map';
-import Footer from './components/Footer';
 import BlockContent from "./components/Block"
 
 import "swiper/css";
 import "./globals.css";
+import Footer from './components/footer/Footer';
 
 
 const stolzlFont = localFont({
@@ -39,8 +39,9 @@ export default function ContactLayout({children}: {children: React.ReactNode}) {
         <body className={stolzlFont.className}>
             {children}
             <MapContent/>
-            <Footer/>
             <BlockContent/>
+            <Footer/>
+            
         </body>
     </html>
   )
