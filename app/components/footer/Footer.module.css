@@ -3,6 +3,7 @@
 }
 .slideItem {
   font-size: 40px;
+  cursor: pointer;
 }
 .container {
   white-space: nowrap;

@@ -1,6 +1,6 @@
 import localFont from 'next/font/local';
-import MapContent from './components/Map';
-import BlockContent from "./components/Block"
+import MapContent from './components/map/Map';
+import BlockContent from "./components/block/Block"
 
 import "swiper/css";
 import "./globals.css";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "../styles/Block.module.css"
+import style from "./Block.module.css"
 
 
 export default function BlockContent() {
