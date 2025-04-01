@@ -1,0 +1,58 @@
+.bg {
+  background-image: url(/backgroundmain.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dubai {
+  font-size: 120px;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+}
+
+.underText {
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+}
+
+.centerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 135px;
+}
+
+.imageLogoTele {
+  padding: 10px;
+  background-color: #34aadf;
+  border-radius: 60px;
+  transition: box-shadow 0.3s ease;
+}
+
+.imageLogoTele:hover {
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.8);
+}
+
+.imageLogoWhats {
+  padding: 10px;
+  background-color: #43d854;
+  border-radius: 60px;
+  transition: box-shadow 0.3s ease;
+}
+
+.imageLogoWhats:hover {
+  box-shadow: 0 0 15px rgba(0, 172, 26, 0.8);
+}
+
+.social {
+  position: absolute;
+  right: 60;
+  bottom: 30;
+  gap: 20px;
+  display: inline-flex;
+}
