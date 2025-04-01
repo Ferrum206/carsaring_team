@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
+import Rent from "./components/pages/Rent";
 
 const stolzlFont = localFont({
   src: [
@@ -39,7 +40,7 @@ export default function RootLayout({
       <body className={`${stolzlFont.className} `}>
         {children}
         <Header />
-
+        <Rent/>
         {/* <Footer /> */}
       </body>
     </html>
