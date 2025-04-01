@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import styles from "../styles/Map.module.css";
+import styles from "./Map.module.css";
 
 
 
