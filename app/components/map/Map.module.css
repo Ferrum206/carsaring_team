@@ -1,0 +1,94 @@
+:root {
+ background: #0a0a0a;
+
+}
+
+.header{
+ margin: 0 auto; 
+ color: white;
+ padding-bottom: 250px ;
+   
+}
+  
+.mapContainer{
+ width: 61.875rem  ;  
+ height: 840pt;
+ position: relative;
+ 
+}
+
+.Container{
+ display: flex;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map{
+    border-radius: 0px 20px 20px 0px;
+  
+}
+
+.form{
+ display: grid;
+ justify-content: center;
+ justify-items: stretch;
+  margin-top: 27px;
+}
+
+
+
+.title{color: white;
+font-size: 70px ;
+}
+
+.input1{
+    width: 700px;
+    height: 90px;
+}
+
+.input2{
+    margin-top: 30px;
+    width: 700px;
+    height: 90px;
+}
+
+
+.input3{
+    margin-top: 30px;
+    height: 90px;
+    width: 700px;
+}
+
+.textarea{
+    margin-top: 30px;
+    width: 700px;
+    height: 180px;
+}
+
+.button{
+    margin-top: 43px;
+    width: 310px;
+    height: 90px;
+    border: 2px solid #33B7BC;
+    background-color: #191919;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+
+.input1,
+.input2,
+.input3,
+.textarea{
+    border-radius: 10px;
+    background-color: #191919;
+    font-size: 20px;
+    color: #707070;
+    border: 1px solid #191919;
+}

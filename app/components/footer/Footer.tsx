@@ -17,8 +17,9 @@ export default function Footer() {
           centeredSlides={true}
           speed={5000}
           autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
+          delay: 0,
+          disableOnInteraction: false,
+        
           }}
           modules={[Autoplay, FreeMode]}
         >
@@ -48,6 +49,18 @@ export default function Footer() {
           </SwiperSlide>
           <SwiperSlide style={{ width: "auto" }}>
             <div className={styles.slideItem}>Porsche</div>
+          </SwiperSlide>
+            <SwiperSlide style={{ width: "auto" }}>
+            <div className={styles.slideItem}>Koenigsegg–Agera RS</div>
+          </SwiperSlide>
+          <SwiperSlide style={{ width: "auto" }}>
+            <div className={styles.slideItem}>Pagani–Zonda R</div>
+          </SwiperSlide>
+          <SwiperSlide style={{ width: "auto" }}>
+            <div className={styles.slideItem}>Bugatti–Chiron</div>
+          </SwiperSlide>
+          <SwiperSlide style={{ width: "auto" }}>
+            <div className={styles.slideItem}>Aston Martin–DBS Superleggera</div>
           </SwiperSlide>
         </Swiper>
       </div>
