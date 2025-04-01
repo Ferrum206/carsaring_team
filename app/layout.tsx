@@ -1,6 +1,6 @@
-import localFont from 'next/font/local';
-import MapContent from './components/map/Map';
-import BlockContent from "./components/block/Block"
+import localFont from "next/font/local";
+import MapContent from "./components/map/Map";
+import BlockContent from "./components/block/Block";
 import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
@@ -33,8 +33,11 @@ const stolzlFont = localFont({
   ],
 });
 
-
-export default function ContactLayout({children}: {children: React.ReactNode}) {
+export default function ContactLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html>
         <body className={stolzlFont.className}>
@@ -47,13 +50,5 @@ export default function ContactLayout({children}: {children: React.ReactNode}) {
             
         </body>
     </html>
-  )
+  );
 }
-
-    
-
-
-
-  
-
-
