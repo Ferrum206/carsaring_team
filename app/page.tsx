@@ -1,47 +1,7 @@
-import styles from "./page.module.css";
-import Header from "./components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
-export default function HomePage() {
+import React from 'react'
+
+export default function page() {
   return (
-    <>
-      <div className={styles.bg}>
-        <Header />
-        <div className={styles.centerText}>
-          <p className={styles.dubai}>Dubai</p>
-          <p className={styles.underText}>LUXURY CAR RENTAL</p>
-        </div>
-        <div className={styles.social}>
-          <Link href="/telegram">
-            <Image
-              src="/Telegram.svg"
-              width={22}
-              height={21}
-              alt="telegram"
-              className={styles.imageLogoTele}
-            />
-          </Link>
-          <Link href="/whatsapp">
-            <Image
-              src="/WhatsApp.svg"
-              width={22}
-              height={21}
-              alt="whatsapp"
-              className={styles.imageLogoWhats}
-            />
-          </Link>
-        </div>
-      </div>
-      <div className={styles.slideCar}>
-        <Image
-          src="/lamborghini.png"
-          width={900}
-          height={660}
-          alt="lambo"
-          className={styles.image}
-        />
-        <p className={styles.popular}>Most Popular</p>
-      </div>
-    </>
-  );
+    <div></div>
+  )
 }

@@ -3,9 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
-   
+    padding-bottom: 260px;
    
 }
 
@@ -24,10 +22,8 @@
     justify-content: center;
     align-items: center;
     gap: 65px;
-    
+     margin-bottom: 50px;
 }
-
-
 
 
 .carNav{
@@ -43,4 +39,24 @@
     /* text-decoration: underline; */
     color: white;
     transition: 0.5s;
+}
+
+.fotoImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4 auto);
+    position: relative;
+
+}
+
+.foto{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.but{
+    position: absolute;
+    max-width: 200px;
+    right: 60px;
+    bottom:40 ;
 }
