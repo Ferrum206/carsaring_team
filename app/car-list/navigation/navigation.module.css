@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+   
+}
+
+
+.title{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 176px;
+    margin-bottom: 80px;
+}
+
+.containerLink{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    
+}
+
+
+
+
+.carNav{
+    text-decoration: none;
+    color: #414141;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.carNav:hover{
+    /* text-decoration: underline; */
+    color: white;
+    transition: 0.5s;
+}
