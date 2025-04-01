@@ -32,6 +32,16 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
+      <div className={styles.slideCar}>
+        <Image
+          src="/lamborghini.png"
+          width={900}
+          height={660}
+          alt="lambo"
+          className={styles.image}
+        />
+        <p className={styles.popular}>Most Popular</p>
+      </div>
     </>
   );
 }

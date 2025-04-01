@@ -56,3 +56,14 @@
   gap: 20px;
   display: inline-flex;
 }
+
+.slideCar {
+  display: flex;
+}
+
+.popular {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 500px;
+  color: white;
+}
