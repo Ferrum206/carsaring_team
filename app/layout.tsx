@@ -1,9 +1,11 @@
-import localFont from "next/font/local";
-// import Footer from "./components/footer/Footer";
+import localFont from 'next/font/local';
+import MapContent from './components/map/Map';
+import BlockContent from "./components/block/Block"
 import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
-import Rent from "./components/pages/Rent";
+import Footer from './components/footer/Footer';
+
 
 const stolzlFont = localFont({
   src: [
@@ -30,19 +32,26 @@ const stolzlFont = localFont({
   ],
 });
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+
+export default function ContactLayout({children}: {children: React.ReactNode}) {
   return (
     <html>
-      <body className={`${stolzlFont.className} `}>
-        {children}
-        <Header />
-        <Rent/>
-        {/* <Footer /> */}
-      </body>
+        <body className={stolzlFont.className}>
+            <Header />
+            {children}
+            <MapContent/>
+            <BlockContent/>
+            <Footer/>
+            
+        </body>
     </html>
-  );
+  )
 }
+
+    
+
+
+
+  
+
+
