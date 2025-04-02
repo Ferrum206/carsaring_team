@@ -57,13 +57,55 @@
   display: inline-flex;
 }
 
-.slideCar {
-  display: flex;
-}
-
 .popular {
   font-size: 70px;
   margin: 0;
   font-weight: 500px;
   color: white;
+}
+
+.inputSearch {
+  width: 700px;
+  height: 90px;
+  font-size: 20px;
+  background-color: #1b1b1b;
+  border: 1px solid #2f2f2f;
+  border-radius: 10px;
+  padding-left: 30px;
+  color: white;
+}
+
+.inputSearch::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.slideCar {
+  display: flex;
+}
+
+.parentInput {
+  position: relative;
+}
+
+.btnSearch {
+  background-color: #1b1b1b00;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30;
+  bottom: 30;
+  left: 640;
+  color: #434343;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }

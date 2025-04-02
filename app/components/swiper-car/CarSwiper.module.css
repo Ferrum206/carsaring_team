@@ -1,0 +1,204 @@
+.mainContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #121212;
+  border-radius: 10px;
+}
+
+/* Стили для левой части с фотографией */
+.imageSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.carImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; /* Чтобы изображение не искажалось */
+}
+
+.carDetails {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.carDetails h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.carDetails h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.carDetails p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.carDetails p span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Стили для правой части со свайпером */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #121212;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+}
+
+.innerContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+}
+
+.timeline {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #444;
+}
+
+.centerIndicator {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background: #00e5ff;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.swiperThumbs {
+  width: 100%;
+  max-height: 450px;
+}
+
+.carItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 50px;
+  transition: all 0.3s ease;
+}
+
+.carItem:nth-child(1) {
+  padding-left: 70px;
+}
+
+.carItem:nth-child(2) {
+  padding-left: 60px;
+}
+
+.carItem.active {
+  padding-left: 50px;
+  transform: scale(1.2);
+}
+
+.carItem:nth-child(4) {
+  padding-left: 60px;
+}
+
+.carItem:nth-child(5) {
+  padding-left: 70px;
+}
+
+.activeLine {
+  position: absolute;
+  left: 50px;
+  width: 40px;
+  height: 2px;
+  background: #00e5ff;
+}
+
+.brand {
+  font-weight: bold;
+  color: #888;
+  font-size: 16px;
+  margin: 0;
+}
+
+.model {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.active .brand {
+  color: #00e5ff;
+  font-size: 20px;
+}
+
+.active .model {
+  color: #00e5ff;
+  font-size: 15px;
+}
+
+.arrowUp,
+.arrowDown {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.arrowUp {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+}
+
+.arrowDown {
+  position: absolute;
+  bottom: -40px;
+  left: 10px;
+}
+
+.viewAll {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #00e5ff;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carInfo {
+  padding-left: 20px;
+}
