@@ -17,17 +17,37 @@ export default function Navigation() {
       </div>
 <div className={style.fotoImage}>
 <Image src="/foto.car/1.png" width={955} height={550} alt="car" className={style.foto}/>
-
-<button className={style.but}>RENT</button>
-
-
+<button className={style.but1}>RENT</button>
+<h2 className={style.carName1}>Lamborghini Urus</h2>
+    
 <Image src="/foto.car/2.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but2}>RENT</button>
+<h2 className={style.carName2}>Ferrari Roma</h2>
+
 <Image src="/foto.car/3.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but3}>RENT</button>
+<h2 className={style.carName3}>Rolls-Royce Ghost</h2>
+
 <Image src="/foto.car/4.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but4}>RENT</button>
+<h2 className={style.carName4}>Porsche 911 Turbo S</h2>
+
 <Image src="/foto.car/5.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but5}>RENT</button>
+<h2 className={style.carName5}>BMW M5 F90</h2>
+
 <Image src="/foto.car/6.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but6}>RENT</button>
+<h2 className={style.carName6}>Mercedes-Benz G63</h2>
+
 <Image src="/foto.car/7.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but7}>RENT</button>
+<h2 className={style.carName7}>Range Rover Sport</h2>
+
 <Image src="/foto.car/8.png" width={955} height={550} alt="car" className={style.foto}/>
+<button className={style.but8}>RENT</button>
+<h2 className={style.carName8}>Mercedes AMG GTR</h2>
+
 </div>
 
 
