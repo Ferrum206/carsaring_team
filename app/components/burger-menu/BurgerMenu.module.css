@@ -1,8 +1,8 @@
+/* Стили для бургер-кнопки (крестика) */
 .burger {
   position: fixed;
-  top: 75px;
-  right: 20px;
-  left: 50;
+  top: 80px;
+  left: 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -10,11 +10,14 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 10px;
+  padding: 5px; /* Уменьшен padding для меньшего хитбокса */
+  box-sizing: border-box;
+  width: 61px; /* Уменьшена ширина для соответствия визуальной части */
 }
 
+/* Линии бургера */
 .line {
-  width: 50px;
+  width: 61px; /* Уменьшена ширина линий */
   height: 2px;
   background-color: white;
   transition: transform 0.3s, opacity 0.3s;
@@ -30,10 +33,7 @@
   transform: translateY(-6px) rotate(-45deg);
 }
 
-/* .burger.open .line:nth-child(3) {
-  transform: translateY(-12px) rotate(-45deg);
-} */
-
+/* Стили для меню */
 .menu {
   position: fixed;
   top: 0;
@@ -44,15 +44,28 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(-100%);
+  transform: translateY(-200%);
   transition: transform 0.5s ease-in-out;
   z-index: 1000;
 }
 
+/* Открытое меню */
 .menu.open {
   transform: translateY(0);
 }
 
+/* Плавное исчезновение логотипа при закрытии */
+.menu:not(.open) .logo {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menu.open .logo {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.2s; /* Задержка для синхронизации */
+}
+
+/* Стили для ссылок в навигации */
 .navLinks {
   font-size: 48px;
   font-weight: 500;
@@ -60,9 +73,10 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
+/* Первая колонка навигации */
 .nav {
   display: inline-flex;
   flex-direction: column;
@@ -71,6 +85,7 @@
   margin-left: 90px;
 }
 
+/* Эффект подчеркивания при наведении */
 .navLinks::after {
   content: "";
   position: absolute;
@@ -82,7 +97,7 @@
   clip-path: polygon(0 100%, 100% 100%, 95% 0, 0 0);
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .navLinks:hover::after {
@@ -94,6 +109,7 @@
   transition: 0.5s;
 }
 
+/* Вторая колонка навигации */
 .nav2 {
   display: inline-flex;
   flex-direction: column;
@@ -101,12 +117,12 @@
   gap: 30px;
 }
 
+/* Общий контейнер для ссылок */
 .generalLinks {
-  /* display: block;
-   */
   margin-top: 120px;
 }
 
+/* Стили для адреса */
 .address {
   font-size: 20px;
   font-weight: 300;
@@ -115,12 +131,14 @@
   margin-left: 90px;
 }
 
+/* Стили для номера телефона */
 .number {
   color: white;
   font-weight: 700;
   font-size: 30px;
 }
 
+/* Стили для иконки Telegram */
 .imageLogoTele {
   padding: 10px;
   background-color: #34aadf;
@@ -132,6 +150,7 @@
   box-shadow: 0 0 15px rgba(52, 152, 219, 0.8);
 }
 
+/* Стили для иконки WhatsApp */
 .imageLogoWhats {
   padding: 10px;
   background-color: #43d854;
@@ -143,20 +162,22 @@
   box-shadow: 0 0 15px rgba(0, 172, 26, 0.8);
 }
 
+/* Контейнер для социальных иконок */
 .social {
   gap: 20px;
   display: inline-flex;
 }
 
+/* Контейнер для основных контактов */
 .mainContacts {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   gap: 20px;
   justify-content: end;
   margin-right: 50px;
 }
 
+/* Контейнер для контактов в футере */
 .contacts {
   display: flex;
   justify-content: space-between;
@@ -166,4 +187,58 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
+}
+
+/* Стили для логотипа */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40px; /* Отступ сверху */
+  left: 50%;
+  transform: translateX(-50%); /* Корректное центрирование */
+}
+
+/* Отступ для логотипа "Trinity" */
+.logotype {
+  margin: 15px;
+}
+
+@media screen and (max-width: 1450px) {
+  .rental {
+    display: none;
+  }
+  .logotype {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navLinks {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .address {
+    font-size: 10px;
+  }
+  .number {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .address {
+    display: none;
+  }
+  .navLinks {
+    font-size: 20px;
+  }
+  .contacts {
+    display: flex;
+    justify-content: center;
+  }
 }

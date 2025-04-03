@@ -9,8 +9,8 @@ import BurgerMenu from "../burger-menu/BurgerMenu";
 export default function Header() {
   return (
     <>
+      <BurgerMenu />
       <header className={styles.header}>
-        <BurgerMenu />
         <div className={styles.fotBurger}></div>
         <div className={styles.navbar}>
           <nav className={styles.nav}>
@@ -37,6 +37,7 @@ export default function Header() {
             width={147}
             height={11}
             alt="logo"
+            className={styles.rental}
           />
         </div>
         <div className={styles.dropdowns}>
