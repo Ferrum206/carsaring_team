@@ -78,6 +78,9 @@
   text-align: center;
   margin-top: 260px;
 }
+.advantages {
+  margin-bottom: 260px;
+}
 
 .advantagesImg {
   display: grid;
@@ -220,8 +223,7 @@
     display: inline-flex;
     justify-content: center;
   }
-  .advantages {
-  }
+
   .advantagesTitle {
     font-size: 40px;
     font-weight: 700;
@@ -246,8 +248,7 @@
     padding-right: 40px;
     border-radius: 10px;
   }
-  .parentImage {
-  }
+
   .textImage {
     position: static;
     display: inline-flex;

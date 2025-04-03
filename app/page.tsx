@@ -1,11 +1,11 @@
-import styles from "./page.module.css";
-import Header from "./components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
+// import styles from "./page.module.css";
+// import Header from "./components/header/Header";
+// import Image from "next/image";
+// import Link from "next/link";
 export default function HomePage() {
-  return (
-    <>
-      <div className={styles.bg}>
+  return <div>homePage</div>;
+
+  /* <div className={styles.bg}>
         <Header />
         <div className={styles.centerText}>
           <p className={styles.dubai}>Dubai</p>
@@ -42,6 +42,5 @@ export default function HomePage() {
         />
         <p className={styles.popular}>Most Popular</p>
       </div>
-    </>
-  );
+    </> */
 }
