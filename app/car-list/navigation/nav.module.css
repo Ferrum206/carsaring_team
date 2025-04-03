@@ -1,0 +1,18 @@
+.carNav {
+    padding: 8px 15px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+  }
+  
+  .carNav:hover {
+    background-color: #5faee3;
+  }
+  
+  .carNav.active {
+    background-color: #2471a3;
+  }
+  

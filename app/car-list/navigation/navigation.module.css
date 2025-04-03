@@ -40,6 +40,13 @@
     transition: 0.5s;
 }
 
+.carNav:active{
+    color: #bebebe;
+    transition: 0.10s;
+    font-size: 30px;
+    color: #444444;  
+}
+
 .fotoImage{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -73,10 +80,40 @@
     background-color: rgba(242, 221, 221, 0);
     color: white;
     font-size: 16px;
-   
-    
+    z-index: 9999;
+    transition: background-color 0.2s ease;
+    transition: 0.5s;
+    cursor: pointer;
 }
-
+.but1:hover,
+.but2:hover,
+.but3:hover,
+.but4:hover,
+.but5:hover,
+.but6:hover,
+.but7:hover,
+.but8:hover{
+    transition: 0.5s;
+    background-color: #33B7BC;  
+    font-size: 19px;
+    border: none;
+    transition: 0.5s;   
+}
+.but1:active,
+.but2:active,
+.but3:active,
+.but4:active,
+.but5:active,
+.but6:active,
+.but7:active,
+.but8:active {
+    background-color: #bebebe;
+    border: 2px solid #bebebe;
+    transition: 0.09s;
+    border: none;
+    background-color: #444444;  
+    font-size: 13px;
+  }
 
 /* ------------------первый столбец------------------- */
 
