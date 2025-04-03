@@ -1,0 +1,107 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width:  960px;
+      margin: 50px auto;
+      transition: 0.5s;
+  }
+  .accordion {
+    list-style-type: none;
+    margin: 16px 0 74px;
+  }
+  .title {
+    font-size: 40px;
+    margin: 172px 0 106px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .accordion_item {
+  
+  }
+  
+  .accordion_btn {
+    position: relative;
+  width: 100%;
+    padding: 20px;
+    background: none;
+border: 1px solid #27323D;
+    color: #fff;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .accordion_body {
+    background:none;
+padding: 20px;
+    font-size: 20px;
+  
+    max-width: 960px;
+    margin: 0 auto;
+    color: #fff ;
+  }
+  
+  .accordion_collapse {
+    height: auto;
+    display: none;
+    font-size: 20px;
+    padding: 0 30px;
+    color: #262626be;
+    margin-top: 21px;
+    transition: 0.5s;
+  }
+  
+  .accordion_collapse.open {
+    display: block;
+  }
+  
+  .plus {
+    color: #33B7BC;
+    width: 28px;
+    height: 28px;
+  }
+
+  
+  .box {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .box.open {
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  @media (max-width: 660px) {
+    .title {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 440px) {
+    .title {
+      font-size: 20px;
+      margin: 40px 0 25px;
+    }
+    .accordion_btn {
+      font-size: 15px;
+    }
+    .plus {
+      width: 30px;
+      height: 30px;
+    }
+    .accordion_collapse {
+      padding: 10px 0 0 20px;
+      font-size: 12px;
+    }
+  }
