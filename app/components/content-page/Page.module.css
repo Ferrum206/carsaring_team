@@ -1,0 +1,37 @@
+.p{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+    font-weight: medium;
+    padding-top: 170px;
+}
+.xiomi {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    gap: 30px;
+}
+.Link{
+    display: flex;
+    color: #414141;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.Link:hover {
+    color: white;
+    text-decoration: underline aqua;
+    transition: 0.5s;
+}
+
+.ImagesContainer {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+   width: max-content;
+   margin: auto;
+   gap: 20px;
+}

@@ -5,7 +5,8 @@ import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
 import Footer from './components/footer/Footer';
-import Navigation from '../app/car-list/navigation/navigation';
+// import Navigation from '../app/car-list/navigation/navigation';
+import Page from "./components/content-page/Page";
 
 
 const stolzlFont = localFont({
@@ -43,7 +44,8 @@ export default function ContactLayout({
         <body className={stolzlFont.className}>
             <Header />
             {children}
-            <Navigation/>
+            {/* <Navigation/> */}
+            <Page/>
             <MapContent/>
             <BlockContent/>
             <Footer/>
