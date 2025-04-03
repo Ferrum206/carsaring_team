@@ -1,10 +1,10 @@
 import localFont from "next/font/local";
 // import MapContent from "./components/map/Map";
 // import BlockContent from "./components/block/Block";
-import Header from "./components/header/Header";
+// import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 // import Navigation from '../app/car-list/navigation/navigation';
 
 const stolzlFont = localFont({
@@ -40,12 +40,12 @@ export default function ContactLayout({
   return (
     <html>
       <body className={stolzlFont.className}>
-        <Header />
+        {/* <Header /> */}
         {children}
         {/* <Navigation /> */}
         {/* <MapContent /> */}
         {/* <BlockContent /> */}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
