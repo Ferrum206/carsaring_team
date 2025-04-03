@@ -19,9 +19,6 @@ export default function MapContent(){
      <div className={styles.grid}>
         <div className={styles.mapContainer}>
           <iframe
-            width="100%"
-            height="100%"
-            frameBorder="0"
             className={styles.map}
             referrerPolicy="no-referrer-when-downgrade"
             src="https://maps.google.com/maps?q=24%204th%20St%20-%20Al%20Quoz%20-%20Al%20Quoz%20Industrial%20Area%203%20-%20Dubai&output=embed"  allowFullScreen
@@ -30,7 +27,7 @@ export default function MapContent(){
         <div className={styles.formContainer}>
           <form className={styles.form}>
             
-           <div className={styles.container}>
+           <div className={styles.containers}>
               <h1 className={styles.title}>Ask us anything </h1>
            </div>
            
