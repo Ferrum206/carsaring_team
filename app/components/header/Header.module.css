@@ -13,21 +13,27 @@
   width: 50px;
   padding-right: 58px;
   padding-left: 60px;
-  color: white;
   /* display: none; */
+  position: relative;
 }
 
 .line-up {
   width: 61px;
   height: 2px;
-  color: white;
-  position: relative;
+  background-color: white;
+  position: absolute;
+  top: -8;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 
 .line-bottom {
   width: 61px;
   height: 2px;
-  color: white;
+  background-color: white;
+  position: absolute;
+  left: 50px;
+  bottom: -5px;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 
 .nav {
