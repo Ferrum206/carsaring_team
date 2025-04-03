@@ -6,34 +6,11 @@
   padding-top: 60px;
 }
 
-.burger {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 50px;
-  padding-right: 58px;
+.fotBurger {
+  width: 60px;
+  background-color: aliceblue;
   padding-left: 60px;
-  /* display: none; */
-  position: relative;
-}
-
-.line-up {
-  width: 61px;
-  height: 2px;
-  background-color: white;
-  position: absolute;
-  top: -8;
-  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
-}
-
-.line-bottom {
-  width: 61px;
-  height: 2px;
-  background-color: white;
-  position: absolute;
-  left: 50px;
-  bottom: -5px;
-  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+  padding-right: 60px;
 }
 
 .nav {
@@ -62,6 +39,7 @@
   position: absolute;
   left: 50%;
   right: 50%;
+  z-index: 1002;
 }
 
 .dropdowns {
