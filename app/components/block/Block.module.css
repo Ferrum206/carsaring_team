@@ -23,9 +23,7 @@ html, body {
     justify-items: center
 }
 
-.cardImage2{
-    margin-right: 120px;
-}
+
 
 
 .cardText{
@@ -35,16 +33,11 @@ html, body {
     font-size: 46px;
     font-weight: lighter;
     margin-top: 80px;
-    max-height: 50px;
+  
 }
 
 .cardToText{
-    font-size: 46px;
-    color: white;
-    margin: 0 auto;
-    position: relative;
-    bottom: 50px;   
-    left: 36.3rem; 
+font-weight: 500;
 }
 
 .blockText{

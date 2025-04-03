@@ -1,0 +1,193 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 260px;
+   
+}
+
+
+.title{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 176px;
+    margin-bottom: 80px;
+}
+
+.containerLink{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+     margin-bottom: 50px;
+}
+
+
+.carNav{
+    text-decoration: none;
+    color: #414141;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.carNav:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.fotoImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4 auto);
+    position: relative;
+
+}
+
+.foto{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.but1,
+.but2,
+.but3,
+.but4,
+.but5,
+.but6,
+.but7,
+.but8{
+    position: absolute;
+    min-width: 108px;
+    min-height: 54px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 2px solid #33B7BC;
+    background-color: rgba(242, 221, 221, 0);
+    color: white;
+    font-size: 16px;
+   
+    
+}
+
+
+/* ------------------первый столбец------------------- */
+
+.but1{
+    bottom: 105.0001rem;  
+    right: 60.6rem;
+}
+
+.but3{
+    bottom: 70.0001rem; 
+    right: 60.6rem; 
+}
+
+.but5{
+    bottom: 35.0001rem;  
+    right: 60.6rem;
+}
+
+.but7{
+    bottom: 0.0001rem;  
+    right: 60.6rem;
+}
+
+/* ---------------------------------------------------- */
+
+
+
+
+/* --------------------второй столбец------------------ */
+.but2{
+    bottom: 105.0001rem;
+    right: 12px;
+}
+
+.but4{
+    bottom: 70.0001rem;
+    right: 12px;
+}
+
+.but6{
+    bottom: 35.0001rem;
+    right: 12px;
+}
+
+.but8{
+    bottom: 0.0001rem;
+    right: 12px;
+}
+/* ------------------------------------------------------ */
+
+
+
+
+.carName1,
+.carName2,
+.carName3,
+.carName4,
+.carName5,
+.carName6,
+.carName7,
+.carName8{    
+    position: absolute;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+/* ----------первыйстолбец------------ */
+.carName1{
+    bottom: 105rem;
+}
+
+.carName3{
+    bottom: 70rem;
+}
+
+.carName5{
+    bottom: 35rem;
+}
+
+.carName7{
+    bottom: 0.0001rem;
+}
+
+/* ----------------------------------- */
+
+
+
+/* ----------второйстолбец------------ */
+.carName2{
+    left: 970px;
+    bottom: 105rem;
+    
+}
+
+.carName4{
+    left: 970px;
+    bottom: 70rem;
+} 
+
+.carName6{
+    left: 970px;
+    bottom: 35rem;
+}
+
+.carName8{
+    left: 970px;
+    bottom: 0.0001rem;
+}
+
+/* ------------------------------------ */

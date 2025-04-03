@@ -1,94 +1,101 @@
 :root {
- background: #0a0a0a;
-
+  background: #0a0a0a;
 }
 
 .header{
  margin: 0 auto; 
  color: white;
  padding-bottom: 250px ;
-   
+ margin-top: 260px;
+
 }
-  
+
 .mapContainer{
  width: 61.875rem  ;  
  height: 840pt;
  position: relative;
+
  
 }
 
-.Container{
- display: flex;
+.mapContainer {
+  max-width: 61.875rem;
+  max-height: 840px;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.Container {
+  display: flex;
 }
 
-.map{
-    border-radius: 0px 20px 20px 0px;
-  
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.form{
- display: grid;
- justify-content: center;
- justify-items: stretch;
-  margin-top: 27px;
+.map {
+  border-radius: 0px 20px 20px 0px;
+  max-width: 111%;
+  width: 111%;
+  min-height: 102%;
+  height: 102%;
 }
 
-
-
-.title{color: white;
-font-size: 70px ;
+.form {
+  margin-left: 160px;
+  margin-bottom: 267px;
 }
 
-.input1{
-    width: 700px;
-    height: 90px;
+.title {
+  color: white;
+  font-size: 70px;
+  max-height: 52px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+
 }
 
-.input2{
-    margin-top: 30px;
-    width: 700px;
-    height: 90px;
+.input1 {
+  width: 700px;
+  height: 90px;
 }
 
-
-.input3{
-    margin-top: 30px;
-    height: 90px;
-    width: 700px;
+.input2 {
+  margin-top: 30px;
+  width: 700px;
+  height: 90px;
 }
 
-.textarea{
-    margin-top: 30px;
-    width: 700px;
-    height: 180px;
+.input3 {
+  margin-top: 30px;
+  height: 90px;
+  width: 700px;
 }
 
-.button{
-    margin-top: 43px;
-    width: 310px;
-    height: 90px;
-    border: 2px solid #33B7BC;
-    background-color: #191919;
-    font-size: 18px;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    
-   
+.textarea {
+  margin-top: 30px;
+  width: 700px;
+  height: 180px;
+}
+
+.button {
+  margin-top: 43px;
+  width: 310px;
+  height: 90px;
+  border: 2px solid #33b7bc;
+  background-color: #191919;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
 }
 
 .input1,
 .input2,
 .input3,
-.textarea{
-    border-radius: 10px;
-    background-color: #191919;
-    font-size: 20px;
-    color: #707070;
-    border: 1px solid #191919;
+.textarea {
+  border-radius: 10px;
+  background-color: #191919;
+  font-size: 20px;
+  color: #707070;
+  border: 1px solid #191919;
 }
