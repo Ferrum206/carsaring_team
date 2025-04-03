@@ -1,12 +1,11 @@
-import localFont from 'next/font/local';
-import MapContent from './components/map/Map';
-import BlockContent from "./components/block/Block"
+import localFont from "next/font/local";
+import MapContent from "./components/map/Map";
+import BlockContent from "./components/block/Block";
 import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
-import Footer from './components/footer/Footer';
-import Rent from './components/rent/Rent';
-
+import Footer from "./components/footer/Footer";
+import AboutPage from "./about/page";
 
 const stolzlFont = localFont({
   src: [
@@ -33,27 +32,21 @@ const stolzlFont = localFont({
   ],
 });
 
-
-export default function ContactLayout({children}: {children: React.ReactNode}) {
+export default function ContactLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html>
-        <body className={stolzlFont.className}>
-            <Header />
-            {children}
-            <Rent/>
-            <MapContent/>
-            <BlockContent/>
-            <Footer/>
-            
-        </body>
+      <body className={`${stolzlFont.className} `}>
+        <Header />
+        <AboutPage />
+        <MapContent />
+        <BlockContent />
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
-
-    
-
-
-
-  
-
-
