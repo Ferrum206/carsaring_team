@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import Header from "./components/header/Header";
 import Image from "next/image";
 import Link from "next/link";
-import { CiSearch } from "react-icons/ci";
+
 import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
 export default function HomePage() {
   return (
@@ -37,20 +37,8 @@ export default function HomePage() {
       <div className={styles.slideCar}>
         <div className={styles.search}>
           <p className={styles.popular}>Most Popular</p>
-          <div className={styles.input}>
-            <div className={styles.parentInput}>
-              <input
-                type="search"
-                placeholder="Car Search"
-                className={styles.inputSearch}
-              />
 
-              <button className={styles.btnSearch}>
-                <CiSearch className={styles.icon} />
-              </button>
-              <VerticalThumbsGallery />
-            </div>
-          </div>
+          <VerticalThumbsGallery />
         </div>
       </div>
     </>

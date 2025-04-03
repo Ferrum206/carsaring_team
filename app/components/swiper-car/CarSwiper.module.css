@@ -1,67 +1,70 @@
 .mainContainer {
   display: flex;
-  gap: 20px;
-  padding: 20px;
-  background: #121212;
-  border-radius: 10px;
+  width: 1536px;
+  height: 100vh;
+  margin: 0 auto;
+  background: #12121200;
 }
 
-/* Стили для левой части с фотографией */
 .imageSection {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .carImage {
   width: 100%;
-  max-width: 500px;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   border-radius: 10px;
-  object-fit: cover; /* Чтобы изображение не искажалось */
 }
 
 .carDetails {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 40px;
+  left: 40px;
   color: white;
   text-align: left;
+  z-index: 10;
 }
 
-.carDetails h2 {
-  font-size: 24px;
+.carDetailsTitle {
+  font-size: 36px;
+  font-weight: bold;
   margin: 0;
+  text-transform: uppercase;
 }
 
-.carDetails h3 {
-  font-size: 20px;
-  margin: 5px 0;
+.carDetailsModel {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 
-.carDetails p {
+.carDetailsPrice {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.carDetailsPriceSpan {
   font-size: 18px;
-  margin: 5px 0;
-}
-
-.carDetails p span {
-  font-size: 14px;
+  font-weight: normal;
   color: #ccc;
 }
 
-/* Стили для правой части со свайпером */
 .container {
-  flex: 1;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #121212;
-  padding: 20px;
-  border-radius: 10px;
-  width: 350px;
-  position: relative;
+  background: #12121200;
+  padding: 40px 20px;
+  height: 400px;
+  justify-content: space-between;
 }
 
 .innerContainer {
@@ -70,6 +73,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  flex-grow: 1;
 }
 
 .gallery {
@@ -77,7 +81,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
 .timeline {
@@ -103,7 +107,7 @@
 
 .swiperThumbs {
   width: 100%;
-  max-height: 450px;
+  height: 100%;
 }
 
 .carItem {
@@ -114,25 +118,35 @@
   transition: all 0.3s ease;
 }
 
-.carItem:nth-child(1) {
-  padding-left: 70px;
+/* .carItem1 {
+  padding-left: 170px;
 }
 
-.carItem:nth-child(2) {
-  padding-left: 60px;
+.carItem2 {
+  padding-left: 160px;
 }
+
+.carItem3 {
+  padding-left: 150px;
+}
+
+.carItem4 {
+  padding-left: 160px;
+}
+
+.carItem5 {
+  padding-left: 170px;
+}
+.carItem6 {
+  padding-left: 170px;
+}
+.carItem7 {
+  padding-left: 170px;
+} */
 
 .carItem.active {
-  padding-left: 50px;
+  padding-left: 50px !important;
   transform: scale(1.2);
-}
-
-.carItem:nth-child(4) {
-  padding-left: 60px;
-}
-
-.carItem:nth-child(5) {
-  padding-left: 70px;
 }
 
 .activeLine {
@@ -146,24 +160,24 @@
 .brand {
   font-weight: bold;
   color: #888;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
 .model {
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
 }
 
 .active .brand {
   color: #00e5ff;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .active .model {
   color: #00e5ff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .arrowUp,
@@ -171,34 +185,81 @@
   background: none;
   border: none;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
   padding: 10px;
 }
 
 .arrowUp {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 10px;
 }
 
 .arrowDown {
   position: absolute;
-  bottom: -40px;
+  bottom: -50px;
   left: 10px;
 }
 
 .viewAll {
-  margin-top: 20px;
-  padding: 12px 24px;
-  background: #00e5ff;
+  padding: 17px 70px;
+  background: #33b7bc;
   border: none;
-  color: black;
+  color: white;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .carInfo {
   padding-left: 20px;
+}
+
+.btnSearch {
+  background-color: #1b1b1b00;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30;
+  bottom: 30;
+  left: 640;
+  color: #434343;
+}
+
+.inputSearch {
+  width: 700px;
+  height: 90px;
+  font-size: 20px;
+  background-color: #1b1b1b;
+  border: 1px solid #2f2f2f;
+  border-radius: 10px;
+  padding-left: 30px;
+  color: white;
+}
+
+.inputSearch::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.parentInput {
+  position: relative;
+}
+.popular {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 500px;
+  color: white;
+}
+
+.slideCar {
+  display: flex;
+  gap: 50px;
 }
