@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-// import Header from "./components/header/Header";
+import Header from "./components/header/Header";
 import Image from "next/image";
 import Link from "next/link";
 

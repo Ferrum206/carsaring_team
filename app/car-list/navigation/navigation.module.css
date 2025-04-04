@@ -1,66 +1,65 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 260px;
-   
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 260px;
 }
 
-
-.title{
-    color: white;
-    font-size: 70px;
-    font-weight: 500;
-    margin-top: 176px;
-    margin-bottom: 80px;
+.title {
+  color: white;
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 176px;
+  margin-bottom: 80px;
 }
 
-.containerLink{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 65px;
-     margin-bottom: 50px;
+.containerLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  margin-bottom: 50px;
 }
 
-
-.carNav{
-    text-decoration: none;
-    color: #414141;
-    transition: 0.5s;
-    font-weight: 500;
-    font-size: 40px;
-
+.carNav {
+  text-decoration: none;
+  color: #414141;
+  transition: 0.5s;
+  font-weight: 500;
+  font-size: 40px;
 }
 
-.carNav:hover{
-    color: white;
-    transition: 0.5s;
+.carNav:hover {
+  color: white;
+  transition: 0.5s;
 }
 
-.carNav:active{
-    color: #bebebe;
-    transition: 0.10s;
-    font-size: 30px;
-    color: #444444;  
+.carNav:active {
+  color: #bebebe;
+  transition: 0.1s;
+  font-size: 30px;
+  color: #444444;
 }
 
-.fotoImage{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4 auto);
-    position: relative;
-
+.fotoImage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4 auto);
+  position: relative;
+  gap: 10px;
 }
 
-.foto{
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+.foto {
+  /* margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px; */
 }
-
+.mainPhoto {
+  position: relative;
+  max-width: 650px;
+  min-height: 400px;
+}
 
 .but1,
 .but2,
@@ -69,21 +68,21 @@
 .but5,
 .but6,
 .but7,
-.but8{
-    position: absolute;
-    min-width: 108px;
-    min-height: 54px;
-    margin-right: 60px;
-    margin-bottom: 40px;
-    border-radius: 8px;
-    border: 2px solid #33B7BC;
-    background-color: rgba(242, 221, 221, 0);
-    color: white;
-    font-size: 16px;
-    z-index: 9999;
-    transition: background-color 0.2s ease;
-    transition: 0.5s;
-    cursor: pointer;
+.but8 {
+  position: absolute;
+  min-width: 108px;
+  min-height: 54px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  border: 2px solid #33b7bc;
+  background-color: rgba(242, 221, 221, 0);
+  color: white;
+  font-size: 16px;
+  z-index: 9999;
+  transition: background-color 0.2s ease;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .but1:hover,
 .but2:hover,
@@ -92,12 +91,12 @@
 .but5:hover,
 .but6:hover,
 .but7:hover,
-.but8:hover{
-    transition: 0.5s;
-    background-color: #33B7BC;  
-    font-size: 19px;
-    border: none;
-    transition: 0.5s;   
+.but8:hover {
+  transition: 0.5s;
+  background-color: #33b7bc;
+  font-size: 19px;
+  border: none;
+  transition: 0.5s;
 }
 .but1:active,
 .but2:active,
@@ -107,65 +106,59 @@
 .but6:active,
 .but7:active,
 .but8:active {
-    background-color: #bebebe;
-    border: 2px solid #bebebe;
-    transition: 0.09s;
-    border: none;
-    background-color: #444444;  
-    font-size: 13px;
-  }
+  background-color: #bebebe;
+  border: 2px solid #bebebe;
+  transition: 0.09s;
+  border: none;
+  background-color: #444444;
+  font-size: 13px;
+}
 
 /* ------------------первый столбец------------------- */
 
-.but1{
-    bottom: 105.0001rem;  
-    right: 60.6rem;
+.but1 {
+  bottom: 0rem;
+  right: 0rem;
 }
 
-.but3{
-    bottom: 70.0001rem; 
-    right: 60.6rem; 
+.but3 {
+  bottom: 0px;
+  right: 0px;
 }
 
-.but5{
-    bottom: 35.0001rem;  
-    right: 60.6rem;
+.but5 {
+  bottom: 0rem;
+  right: 0rem;
 }
 
-.but7{
-    bottom: 0.0001rem;  
-    right: 60.6rem;
+.but7 {
+  bottom: 0rem;
+  right: 0rem;
 }
 
 /* ---------------------------------------------------- */
 
-
-
-
 /* --------------------второй столбец------------------ */
-.but2{
-    bottom: 105.0001rem;
-    right: 12px;
+.but2 {
+  bottom: 0rem;
+  right: 0px;
 }
 
-.but4{
-    bottom: 70.0001rem;
-    right: 12px;
+.but4 {
+  right: 0px;
+  bottom: 0px;
 }
 
-.but6{
-    bottom: 35.0001rem;
-    right: 12px;
+.but6 {
+  bottom: 0rem;
+  right: 0px;
 }
 
-.but8{
-    bottom: 0.0001rem;
-    right: 12px;
+.but8 {
+  bottom: 0rem;
+  right: 0px;
 }
 /* ------------------------------------------------------ */
-
-
-
 
 .carName1,
 .carName2,
@@ -174,57 +167,51 @@
 .carName5,
 .carName6,
 .carName7,
-.carName8{    
-    position: absolute;
-    margin-left: 60px;
-    margin-bottom: 40px;
-    font-size: 40px;
-    color: white;
+.carName8 {
+  position: absolute;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: white;
 }
-
-
 
 /* ----------первыйстолбец------------ */
-.carName1{
-    bottom: 105rem;
+.carName1 {
+  left: 0;
+  bottom: 0;
 }
 
-.carName3{
-    bottom: 70rem;
+.carName3 {
+  bottom: 0px;
 }
 
-.carName5{
-    bottom: 35rem;
+.carName5 {
+  bottom: 0rem;
 }
 
-.carName7{
-    bottom: 0.0001rem;
+.carName7 {
+  bottom: 0rem;
 }
 
 /* ----------------------------------- */
 
-
-
 /* ----------второйстолбец------------ */
-.carName2{
-    left: 970px;
-    bottom: 105rem;
-    
+.carName2 {
+  left: 0;
+  bottom: 0;
 }
 
-.carName4{
-    left: 970px;
-    bottom: 70rem;
-} 
-
-.carName6{
-    left: 970px;
-    bottom: 35rem;
+.carName4 {
+  left: 0px;
+  bottom: 0px;
 }
 
-.carName8{
-    left: 970px;
-    bottom: 0.0001rem;
+.carName6 {
+  left: 0px;
+  bottom: 0rem;
 }
 
-/* ------------------------------------ */
+.carName8 {
+  left: 0px;
+  bottom: 0rem;
+}
