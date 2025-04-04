@@ -6,28 +6,11 @@
   padding-top: 60px;
 }
 
-.burger {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 50px;
-  padding-right: 58px;
+.fotBurger {
+  width: 60px;
+  background-color: aliceblue;
   padding-left: 60px;
-  color: white;
-  /* display: none; */
-}
-
-.line-up {
-  width: 61px;
-  height: 2px;
-  color: white;
-  position: relative;
-}
-
-.line-bottom {
-  width: 61px;
-  height: 2px;
-  color: white;
+  padding-right: 60px;
 }
 
 .nav {
@@ -56,6 +39,7 @@
   position: absolute;
   left: 50%;
   right: 50%;
+  z-index: 1002;
 }
 
 .dropdowns {

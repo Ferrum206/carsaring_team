@@ -2,10 +2,12 @@
 // import Header from "./components/header/Header";
 // import Image from "next/image";
 // import Link from "next/link";
-export default function HomePage() {
-  return <div>homePage</div>;
 
-  /* <div className={styles.bg}>
+// import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
+export default function HomePage() {
+  return (
+    <>
+      {/* <div className={styles.bg}>
         <Header />
         <div className={styles.centerText}>
           <p className={styles.dubai}>Dubai</p>
@@ -33,14 +35,12 @@ export default function HomePage() {
         </div>
       </div>
       <div className={styles.slideCar}>
-        <Image
-          src="/lamborghini.png"
-          width={900}
-          height={660}
-          alt="lambo"
-          className={styles.image}
-        />
-        <p className={styles.popular}>Most Popular</p>
-      </div>
-    </> */
+        <div className={styles.search}>
+          <p className={styles.popular}>Most Popular</p>
+
+          <VerticalThumbsGallery />
+        </div>
+      </div> */}
+    </>
+  );
 }

@@ -5,7 +5,7 @@ export interface HeaderData {
 
 export const headerData: HeaderData[] = [
   {
-    href: "yes",
+    href: "/about",
     label: "Car List",
   },
   {

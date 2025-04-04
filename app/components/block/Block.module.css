@@ -23,9 +23,7 @@ html, body {
     justify-items: center
 }
 
-.cardImage2{
-    margin-right: 120px;
-}
+
 
 
 .cardText{
@@ -35,16 +33,11 @@ html, body {
     font-size: 46px;
     font-weight: lighter;
     margin-top: 80px;
-    max-height: 50px;
+  
 }
 
 .cardToText{
-    font-size: 46px;
-    color: white;
-    margin: 0 auto;
-    position: relative;
-    bottom: 50px;   
-    left: 36.3rem; 
+font-weight: 500;
 }
 
 .blockText{
@@ -84,13 +77,7 @@ html, body {
     margin-bottom: 78px;
 
 }
- 
-/* .emailcom{
-    position: relative;
-    right: 26rem;
-    width: 21px;
-    height: 18px;
-} */
+
 
 .inputStroce{
     width: 425px;
@@ -116,4 +103,23 @@ html, body {
     outline: none;
     margin-left: 20px;
     cursor: pointer;
+    transition: background-color 0.3s;
+    transition: 0.5s;
+}
+
+.bButton:hover{
+    background: #b6b4b4;
+    color: #1F1E1F;
+    border: 3px solid #33B7BC;
+    font-size: 19px;
+    
+}
+
+.bButton:active{
+    background: #1F1E1F;
+    color: white;
+    border: none;
+    font-size: 14px;
+    transition: 0.09s;
+
 }

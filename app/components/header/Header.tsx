@@ -4,15 +4,14 @@ import Image from "next/image";
 import { headerData } from "./headerData";
 import Link from "next/link";
 import Dropdowns from "./../dropdown/Dropdown";
+import BurgerMenu from "../burger-menu/BurgerMenu";
 
 export default function Header() {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.burger}>
-          <div className={styles["line-up"]}></div>
-          <div className={styles["line-bottom"]}></div>
-        </div>
+        <BurgerMenu />
+        <div className={styles.fotBurger}></div>
         <div className={styles.navbar}>
           <nav className={styles.nav}>
             {headerData.map((link) => {

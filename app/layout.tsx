@@ -40,13 +40,16 @@ export default function ContactLayout({
 }) {
   return (
     <html>
-      <body className={`${stolzlFont.className} `}>
+      <body className={stolzlFont.className}>
         <Header />
         {/* <AboutPage /> */}
         <Contact />
         <MapContent />
         <BlockContent />
         {children}
+        {/* <Navigation /> */}
+        {/* <MapContent /> */}
+        {/* <BlockContent /> */}
         <Footer />
       </body>
     </html>
