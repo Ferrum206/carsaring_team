@@ -1,0 +1,58 @@
+.contactAbout {
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 176px;
+  color: #fff;
+  margin-bottom: 120px;
+}
+.phoneTitle {
+  font-weight: 700;
+  font-size: 20px;
+  color: #535965;
+}
+.phoneNomber {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 5px;
+}
+
+.addressTitle {
+  font-weight: 700;
+  font-size: 20px;
+  color: #535965;
+  margin-top: 53px;
+}
+.addressText {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 798px) {
+  .contactTitle {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .contactTitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .phoneTitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .phoneNomber {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .addressTitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .addressText {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
