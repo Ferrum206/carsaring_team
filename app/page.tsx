@@ -1,13 +1,13 @@
-import styles from "./page.module.css";
-import Header from "./components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
+// import styles from "./page.module.css";
+// import Header from "./components/header/Header";
+// import Image from "next/image";
+// import Link from "next/link";
 
-import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
+// import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
 export default function HomePage() {
   return (
     <>
-      <div className={styles.bg}>
+      {/* <div className={styles.bg}>
         <Header />
         <div className={styles.centerText}>
           <p className={styles.dubai}>Dubai</p>
@@ -40,7 +40,7 @@ export default function HomePage() {
 
           <VerticalThumbsGallery />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
