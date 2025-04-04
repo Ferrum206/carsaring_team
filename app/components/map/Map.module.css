@@ -6,12 +6,18 @@
   margin: 0 auto;
   color: white;
   padding-bottom: 250px;
+  margin-top: 260px;
 }
 
 .mapContainer {
   width: 61.875rem;
   height: 840pt;
   position: relative;
+}
+
+.mapContainer {
+  max-width: 61.875rem;
+  max-height: 840px;
 }
 
 .Container {
@@ -25,40 +31,45 @@
 
 .map {
   border-radius: 0px 20px 20px 0px;
+  max-width: 111%;
+  width: 111%;
+  min-height: 102%;
+  height: 102%;
 }
 
 .form {
-  display: grid;
-  justify-content: center;
-  justify-items: stretch;
-  margin-top: 27px;
+  margin-left: 160px;
+  margin-bottom: 267px;
 }
 
 .title {
   color: white;
-  font-size: 70px;
+  font-size: 50px;
+  max-height: 52px;
+  margin-bottom: 80px;
+  margin-top: 20px;
 }
 
 .input1 {
-  width: 700px;
+  width: 500px;
   height: 90px;
 }
 
 .input2 {
   margin-top: 30px;
-  width: 700px;
+  width: 500px;
   height: 90px;
 }
 
 .input3 {
   margin-top: 30px;
   height: 90px;
-  width: 700px;
+  width: 500px;
 }
 
 .textarea {
   margin-top: 30px;
-  width: 700px;
+  width: 500px;
   height: 180px;
 }
 
@@ -72,6 +83,22 @@
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  transition: background-color 0.5s ease;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #33b7bc;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.button:active {
+  transition: none;
+  background-color: #292929;
+  border: 2px solid #292929;
+  font-size: 13px;
+  transition: 0.09s;
 }
 
 .input1,

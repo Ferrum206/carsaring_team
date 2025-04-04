@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from "./style.module.css";
 import { Breadcrumbs } from "../components/breadcrumbs";
+import Header from "../components/header/Header";
 
 export default function AboutPage() {
   return (
     <div className={styles.about}>
+      <Header />
       <Breadcrumbs path="about" />
       <h1 className={styles.title}>About Us</h1>
       <div className={styles.featureList}>
@@ -135,7 +137,6 @@ export default function AboutPage() {
               className={styles.imageHover}
             />
             <p className={styles.textImage}>
-              
               <span className={styles.point}></span>
               Insurance without a deductible for each car
             </p>

@@ -1,0 +1,230 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 260px;
+   
+}
+
+
+.title{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 176px;
+    margin-bottom: 80px;
+}
+
+.containerLink{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+     margin-bottom: 50px;
+}
+
+
+.carNav{
+    text-decoration: none;
+    color: #414141;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.carNav:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.carNav:active{
+    color: #bebebe;
+    transition: 0.10s;
+    font-size: 30px;
+    color: #444444;  
+}
+
+.fotoImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4 auto);
+    position: relative;
+
+}
+
+.foto{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.but1,
+.but2,
+.but3,
+.but4,
+.but5,
+.but6,
+.but7,
+.but8{
+    position: absolute;
+    min-width: 108px;
+    min-height: 54px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 2px solid #33B7BC;
+    background-color: rgba(242, 221, 221, 0);
+    color: white;
+    font-size: 16px;
+    z-index: 9999;
+    transition: background-color 0.2s ease;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.but1:hover,
+.but2:hover,
+.but3:hover,
+.but4:hover,
+.but5:hover,
+.but6:hover,
+.but7:hover,
+.but8:hover{
+    transition: 0.5s;
+    background-color: #33B7BC;  
+    font-size: 19px;
+    border: none;
+    transition: 0.5s;   
+}
+.but1:active,
+.but2:active,
+.but3:active,
+.but4:active,
+.but5:active,
+.but6:active,
+.but7:active,
+.but8:active {
+    background-color: #bebebe;
+    border: 2px solid #bebebe;
+    transition: 0.09s;
+    border: none;
+    background-color: #444444;  
+    font-size: 13px;
+  }
+
+/* ------------------первый столбец------------------- */
+
+.but1{
+    bottom: 105.0001rem;  
+    right: 60.6rem;
+}
+
+.but3{
+    bottom: 70.0001rem; 
+    right: 60.6rem; 
+}
+
+.but5{
+    bottom: 35.0001rem;  
+    right: 60.6rem;
+}
+
+.but7{
+    bottom: 0.0001rem;  
+    right: 60.6rem;
+}
+
+/* ---------------------------------------------------- */
+
+
+
+
+/* --------------------второй столбец------------------ */
+.but2{
+    bottom: 105.0001rem;
+    right: 12px;
+}
+
+.but4{
+    bottom: 70.0001rem;
+    right: 12px;
+}
+
+.but6{
+    bottom: 35.0001rem;
+    right: 12px;
+}
+
+.but8{
+    bottom: 0.0001rem;
+    right: 12px;
+}
+/* ------------------------------------------------------ */
+
+
+
+
+.carName1,
+.carName2,
+.carName3,
+.carName4,
+.carName5,
+.carName6,
+.carName7,
+.carName8{    
+    position: absolute;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+/* ----------первыйстолбец------------ */
+.carName1{
+    bottom: 105rem;
+}
+
+.carName3{
+    bottom: 70rem;
+}
+
+.carName5{
+    bottom: 35rem;
+}
+
+.carName7{
+    bottom: 0.0001rem;
+}
+
+/* ----------------------------------- */
+
+
+
+/* ----------второйстолбец------------ */
+.carName2{
+    left: 970px;
+    bottom: 105rem;
+    
+}
+
+.carName4{
+    left: 970px;
+    bottom: 70rem;
+} 
+
+.carName6{
+    left: 970px;
+    bottom: 35rem;
+}
+
+.carName8{
+    left: 970px;
+    bottom: 0.0001rem;
+}
+
+/* ------------------------------------ */
