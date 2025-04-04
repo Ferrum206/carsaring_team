@@ -146,7 +146,7 @@
   border-radius: 8px;
   padding: 8px;
   max-width: 450px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .input {
@@ -216,4 +216,67 @@
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+@media screen and (max-width: 1291px) {
+  .numberTwo {
+    font-size: 26px;
+  }
+  .inputMain {
+    padding: 6px;
+    max-width: 390px;
+  }
+  .input {
+    padding: 0;
+  }
+  .button {
+    padding: 18px 15px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .paymentContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .numberTwo {
+    font-size: 24px;
+  }
+  .dubai {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .inputMain {
+    display: none;
+  }
+  .linksGroup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки */
+    grid-template-rows: auto auto; /* Две строки */
+  }
+  .generalLinks {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Две колонки */
+    grid-template-rows: auto auto; /* Две строки */
+  }
+  .contacts {
+    padding: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dubai {
+    line-height: 34px;
+    text-align: center;
+  }
+  .footerEnd {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footerLinks {
+    margin-left: 15px;
+  }
 }

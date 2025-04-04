@@ -20,6 +20,16 @@
   position: relative;
 }
 
+.button2 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 800;
+  position: relative;
+}
+
 .arrow {
   transform: rotate(180deg);
   transition: 0.5s;
@@ -65,4 +75,10 @@
   transform: rotate(0deg);
   transition: 0.5s;
   color: #00bcd4;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    display: none;
+  }
 }

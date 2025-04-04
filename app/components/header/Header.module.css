@@ -39,7 +39,6 @@
   position: absolute;
   left: 50%;
   right: 50%;
-  z-index: 1002;
 }
 
 .dropdowns {
@@ -57,4 +56,25 @@
 
 .logotype {
   margin: 15px;
+}
+
+@media screen and (max-width: 1228px) {
+  /* .header {
+    display: none;
+  } */
+  .nav {
+    display: none;
+  }
+  .number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logotype {
+    display: none;
+  }
+  .rental {
+    display: none;
+  }
 }

@@ -20,6 +20,23 @@ const BurgerMenu = () => {
       </button>
 
       <div className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+        <div className={styles.logo}>
+          <Image src="/logo.svg" width={71} height={57} alt="logo" />
+          <Image
+            src="/trinity.svg"
+            width={147}
+            height={28}
+            alt="logo"
+            className={styles.logotype}
+          />
+          <Image
+            src="/car-rental-botique.svg"
+            width={147}
+            height={11}
+            alt="logo"
+            className={styles.rental}
+          />
+        </div>
         <div className={styles.generalLinks}>
           <nav className={styles.nav}>
             <Link href="" className={styles.navLinks}>
