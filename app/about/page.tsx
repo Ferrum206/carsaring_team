@@ -1,13 +1,15 @@
 import Image from "next/image";
 import styles from "./style.module.css";
-import { Breadcrumbs } from "../components/breadcrumbs";
+// import { Breadcrumbs } from "../components/breadcrumbs";
 import Header from "../components/header/Header";
+import MapContent from "../components/map/Map";
+import Footer from "../components/footer/Footer";
 
 export default function AboutPage() {
   return (
     <div className={styles.about}>
       <Header />
-      <Breadcrumbs path="about" />
+
       <h1 className={styles.title}>About Us</h1>
       <div className={styles.featureList}>
         <div className={styles.feature}>
@@ -179,6 +181,8 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      <MapContent />
+      <Footer />
     </div>
   );
 }
