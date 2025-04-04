@@ -4,8 +4,9 @@ import localFont from "next/font/local";
 // import Header from "./components/header/Header";
 import "swiper/css";
 import "./globals.css";
-// import Footer from "./components/footer/Footer";
-// import Navigation from '../app/car-list/navigation/navigation';
+import Footer from "./components/footer/Footer";
+// import AboutPage from "./about/page";
+import Contact from "./contact-us/Contact";
 
 const stolzlFont = localFont({
   src: [
@@ -45,7 +46,7 @@ export default function ContactLayout({
         {/* <Navigation /> */}
         {/* <MapContent /> */}
         {/* <BlockContent /> */}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
