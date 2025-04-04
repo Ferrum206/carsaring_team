@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Header from "./components/header/Header";
+// import Header from "./components/header/Header";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,8 +46,6 @@ export default function HomePage() {
       </div>
       <CarSection />
       <div className={styles.about}>
-        {/* <Header /> */}
-        {/* <Breadcrumbs path="about" /> */}
         <h1 className={styles.title}>About Us</h1>
         <div className={styles.featureList}>
           <div className={styles.feature}>

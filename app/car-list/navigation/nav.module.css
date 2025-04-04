@@ -1,18 +1,28 @@
-.carNav {
-    padding: 8px 15px;
-    border: none;
-    background-color: #3498db;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin: 5px;
-  }
-  
-  .carNav:hover {
-    background-color: #5faee3;
-  }
-  
-  .carNav.active {
-    background-color: #2471a3;
-  }
-  
+/* .containerLink{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+   margin-bottom: 50px;
+}
+.carNav{
+  text-decoration: none;
+  color: #414141;
+  transition: 0.5s;
+  font-weight: 500;
+  font-size: 40px;
+
+}
+
+.carNav:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.carNav:active{
+  color: #bebebe;
+  transition: 0.10s;
+  font-size: 30px;
+  color: #444444;  
+} */
