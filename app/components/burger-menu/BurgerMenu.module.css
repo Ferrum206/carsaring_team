@@ -1,6 +1,6 @@
 /* Стили для бургер-кнопки (крестика) */
 .burger {
-  position: fixed;
+  position: absolute;
   top: 80px;
   left: 20px;
   background: none;
@@ -13,6 +13,7 @@
   padding: 5px; /* Уменьшен padding для меньшего хитбокса */
   box-sizing: border-box;
   width: 61px; /* Уменьшена ширина для соответствия визуальной части */
+  overflow: hidden;
 }
 
 /* Линии бургера */

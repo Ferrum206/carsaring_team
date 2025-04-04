@@ -4,6 +4,7 @@
   height: 100vh;
   margin: 0 auto;
   background: #12121200;
+  gap: 40px;
 }
 
 .imageSection {
@@ -118,32 +119,6 @@
   transition: all 0.3s ease;
 }
 
-/* .carItem1 {
-  padding-left: 170px;
-}
-
-.carItem2 {
-  padding-left: 160px;
-}
-
-.carItem3 {
-  padding-left: 150px;
-}
-
-.carItem4 {
-  padding-left: 160px;
-}
-
-.carItem5 {
-  padding-left: 170px;
-}
-.carItem6 {
-  padding-left: 170px;
-}
-.carItem7 {
-  padding-left: 170px;
-} */
-
 .carItem.active {
   padding-left: 50px !important;
   transform: scale(1.2);
@@ -151,7 +126,8 @@
 
 .activeLine {
   position: absolute;
-  left: 50px;
+  left: 54px;
+  bottom: 35;
   width: 40px;
   height: 2px;
   background: #00e5ff;
@@ -227,21 +203,22 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 30;
-  bottom: 30;
-  left: 640;
+  top: 20;
+  bottom: 0;
+  left: 550;
   color: #434343;
 }
 
 .inputSearch {
-  width: 700px;
-  height: 90px;
+  width: 600px;
+  height: 80px;
   font-size: 20px;
   background-color: #1b1b1b;
   border: 1px solid #2f2f2f;
   border-radius: 10px;
   padding-left: 30px;
   color: white;
+  overflow: hidden;
 }
 
 .inputSearch::-webkit-search-cancel-button {
