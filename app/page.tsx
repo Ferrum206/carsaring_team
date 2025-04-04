@@ -1,16 +1,16 @@
-import styles from "./page.module.css";
-import Header from "./components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
+// import styles from "./page.module.css";
+// import Header from "./components/header/Header";
+// import Image from "next/image";
+// import Link from "next/link";
 
-import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
-import Footer from "./components/footer/Footer";
-import CarSection from "./components/car-section/CarSection";
-import MapContent from "./components/map/Map";
+// import VerticalThumbsGallery from "./components/swiper-car/CarSwiper";
+// import Footer from "./components/footer/Footer";
+// import CarSection from "./components/car-section/CarSection";
+// import MapContent from "./components/map/Map";
 export default function HomePage() {
   return (
     <>
-      <div className={styles.bg}>
+      {/* <div className={styles.bg}>
         <Header />
         <div className={styles.centerText}>
           <p className={styles.dubai}>Dubai</p>
@@ -48,7 +48,7 @@ export default function HomePage() {
       <div className={styles.about}>
         {/* <Header /> */}
         {/* <Breadcrumbs path="about" /> */}
-        <h1 className={styles.title}>About Us</h1>
+        {/* <h1 className={styles.title}>About Us</h1>
         <div className={styles.featureList}>
           <div className={styles.feature}>
             <div className={styles.featureData}>
@@ -197,7 +197,7 @@ export default function HomePage() {
         />
       </div>
       <MapContent />
-      <Footer />
+      <Footer /> */} 
     </>
   );
 }
