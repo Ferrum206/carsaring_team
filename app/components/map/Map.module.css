@@ -116,3 +116,52 @@
   color: #707070;
   border: 1px solid #191919;
 }
+
+
+@media screen and (max-width: 768px) {
+
+
+.mapContainer{
+  display: none;
+}
+
+  .header {
+    margin-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .mapContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .form {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .input1,
+  .input2,
+  .input3,
+  .textarea {
+    width: calc(100% - 40px);
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .button {
+    width: calc(100% - 40px);
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+}
