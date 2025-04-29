@@ -26,7 +26,11 @@ export default function HomePage() {
               className={styles.imageLogoTele}
             />
           </Link>
-          <Link href="/whatsapp">
+          <Link
+            href="https://wa.me/+996552477020?text=Здравствуйте!%20Хочу%20арендовать%20авто."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/WhatsApp.svg"
               width={22}

@@ -73,7 +73,7 @@ export default function Footer() {
               <Link href="/about" className={styles.links}>
                 About Us
               </Link>
-              <Link href="/about" className={styles.links}>
+              <Link href="/rent" className={styles.links}>
                 Conditions
               </Link>
               <Link href="/about" className={styles.links}>

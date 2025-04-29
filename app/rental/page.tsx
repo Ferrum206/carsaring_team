@@ -1,7 +1,5 @@
-import Rent from "../components/rent/Rent";
+import Rent from "../rent/page";
 
 export default function RentalPage() {
-  return (
-    <Rent/>
-  )
+  return <Rent />;
 }

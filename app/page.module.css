@@ -50,11 +50,12 @@
 }
 
 .social {
-  position: absolute;
+  position: fixed;
   right: 60;
   bottom: 30;
   gap: 20px;
   display: inline-flex;
+  z-index: 500;
 }
 
 .search {
@@ -321,6 +322,7 @@
     max-width: 320px;
     margin: auto;
     padding-top: 60px;
+
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 10px;

@@ -1,12 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Rent.module.css";
-import { Accordion } from "../accordion";
+import { Accordion } from "../components/accordion";
 import { acord } from "./accordionData";
+import Header from "../components/header/Header";
+import MapContent from "../components/map/Map";
+import BlockContent from "../components/block/Block";
+import Footer from "../components/footer/Footer";
 
 export default function Rent() {
+  const data = "0";
+
+  if (data) {
+    console.log("правда");
+  }
+
   return (
     <>
+      <Header />
       <div className={styles.container}>
         <div className={styles.link}>Main</div>
         <Image src="./arrows.svg" width={8} height={7} alt="o" />
@@ -32,6 +43,9 @@ export default function Rent() {
         </div>
       </div>
       <Accordion data={acord} />
+      <MapContent />
+      <BlockContent />
+      <Footer />
     </>
   );
 }

@@ -4,11 +4,13 @@ import Header from "../components/header/Header";
 import MapContent from "../components/map/Map";
 import BlockContent from "../components/block/Block";
 import Footer from "../components/footer/Footer";
+import Breadcrumbs from "../components/breadcrumbs/Breadcrumbs";
 
 export default function Contact() {
   return (
     <>
       <Header />
+      <Breadcrumbs />
       <div className={styles.contactAbout}>
         <div className={styles.contact}>
           <h1 className={styles.contactTitle}>Contact Us</h1>
